@@ -23,7 +23,7 @@ num_pages = int(last_page.text)
 page = list()
 time = list()
 
-for i in range(1, 3):
+for i in range(1, num_pages):
 
     item_list = list()
 
